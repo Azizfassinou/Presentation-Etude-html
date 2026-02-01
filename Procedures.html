@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet d'Études – Procédures Campus France & École Privée</title>
+    <style>
+        :root {
+            --bg-primary: #0f172a;
+            --bg-card: #1e293b;
+            --bg-secondary: #334155;
+            --accent: #38bdf8;
+            --success: #10b981;
+            --text-primary: #f1f5f9;
+            --text-muted: #94a3b8;
+            --border-radius: 12px;
+            --shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+            --font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: var(--font-family);
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+            padding-bottom: 3rem;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 2rem 1.5rem;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 3rem;
+            padding: 2.5rem 2rem;
+            background: var(--bg-card);
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow);
+        }
+
+        h1 {
+            color: var(--accent);
+            font-size: 2.3rem;
+            margin-bottom: 0.75rem;
+            font-weight: 600;
+        }
+
+        .subtitle {
+            color: var(--text-muted);
+            font-size: 1.15rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        section {
+            margin-bottom: 3rem;
+            background: var(--bg-card);
+            border-radius: var(--border-radius);
+            padding: 2.5rem;
+            box-shadow: var(--shadow);
+            border: 1px solid rgba(56, 189, 248, 0.15);
+        }
+
+        section h2 {
+            color: var(--accent);
+            font-size: 1.8rem;
+            margin-bottom: 1.75rem;
+            padding-bottom: 0.75rem;
+            border-bottom: 2px solid rgba(56, 189, 248, 0.3);
+        }
+
+        .step {
+            margin-bottom: 2rem;
+            padding: 1.75rem;
+            background: var(--bg-secondary);
+            border-left: 4px solid var(--accent);
+            border-radius: 0 var(--border-radius) var(--border-radius) 0;
+        }
+
+        .step:last-child {
+            margin-bottom: 2.5rem;
+        }
+
+        .step h3 {
+            color: var(--text-primary);
+            font-size: 1.35rem;
+            margin-bottom: 0.75rem;
+            font-weight: 500;
+        }
+
+        .step h4 {
+            color: var(--accent);
+            font-size: 1.1rem;
+            margin: 1.25rem 0 0.75rem 0;
+            font-weight: 500;
+        }
+
+        p {
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+        }
+
+        ul {
+            padding-left: 1.75rem;
+            margin-bottom: 1rem;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+            font-size: 1.1rem;
+        }
+
+        .cost {
+            background: rgba(16, 185, 129, 0.15);
+            border-left: 4px solid var(--success);
+            padding: 1.25rem;
+            border-radius: 0 8px 8px 0;
+            margin: 1rem 0;
+            font-weight: 500;
+        }
+
+        .total {
+            background: linear-gradient(135deg, var(--accent), #0ea5e9);
+            color: #0f172a;
+            font-weight: 600;
+            padding: 1.75rem;
+            border-radius: var(--border-radius);
+            text-align: center;
+            font-size: 1.25rem;
+            box-shadow: var(--shadow);
+            margin-top: 1.5rem;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow);
+            display: block;
+            margin: 1.5rem auto;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: var(--text-muted);
+            font-size: 1rem;
+            background: var(--bg-card);
+            border-radius: var(--border-radius);
+            margin-top: 2rem;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 1.5rem 1rem;
+            }
+
+            h1 {
+                font-size: 1.9rem;
+            }
+
+            section {
+                padding: 2rem 1.5rem;
+            }
+
+            .step {
+                padding: 1.5rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Projet d'Études</h1>
+            <p class="subtitle">Comparaison détaillée des procédures Campus France et école privée EMSP</p>
+        </header>
+
+        <section>
+            <h2>Procédure Classique – Campus France</h2>
+            <p><strong>Situation actuelle :</strong> En attente des réponses des universités publiques.</p>
+
+            <div class="step">
+                <h3>Étape 1 : Attente des réponses des universités</h3>
+                <p>Aucune dépense supplémentaire ici.</p>
+            </div>
+
+            <div class="step">
+                <h3>Étape 2 : Confirmation d'admission</h3>
+                <p>Une fois admise dans une université, confirmation via Études en France.</p>
+                <p>Dépenses : aucune.</p>
+            </div>
+
+            <div class="step">
+                <h3>Étape 3 : Demande du visa étudiant (VLS-TS)</h3>
+                <p>Dépôt du dossier auprès du centre de visas (Capago) avec attestation d'admission et justificatifs.
+                </p>
+                <div class="cost">Dépenses : Environ 100 000 FCFA</div>
+            </div>
+
+            <div class="step">
+                <h3>Étape 4 : Justifier les ressources financières</h3>
+                <p><strong>Première possibilité :</strong> Le garant doit montrer qu'il peut envoyer 615€ par mois (≈ 4
+                    900 000 FCFA/an) avec les relevés bancaires ou faire un compte bloqué; avoir au moins 5 millions
+                    dans un compte bancaire en mon nom puis à gérer après l'obtention du visa.</p>
+
+                <div class="cost">Dépenses : aucune (justificatifs uniquement).</div>
+
+                <p><strong>Deuxième possibilité :</strong> Attestation de virement irrévocable via agence.</p>
+                <div class="cost">Dépenses : 300 000 à 400 000 FCFA</div>
+            </div>
+
+            <div class="step">
+                <h3>Étape 5 : Logement en France (3 premiers mois)</h3>
+                <ul>
+                    <li>Île-de-France : 600€ × 3 = 1 185 000 FCFA</li>
+                    <li>Villes de province : 500€ × 3 = 990 000 FCFA</li>
+                </ul>
+                <div class="cost">Estimation retenue : 1 000 000 FCFA</div>
+            </div>
+
+            <div class="step">
+                <h3>Étape 6 : Billet d'avion Bénin → France</h3>
+                <div class="cost">Estimation : 350 000 FCFA (moyenne 400-700€)</div>
+            </div>
+
+            <div class="total">
+                Total Procédure Campus France : 1 750 000 FCFA
+            </div>
+        </section>
+
+        <section>
+            <h2>Procédure École Privée – EMSP (Plan B)</h2>
+
+            <div class="step">
+                <h3>Étape 1 : Candidature directe à l'EMSP</h3>
+                <p>Dépôt du dossier pour admission en 2ᵉ année Bachelor Gestion des Projets.</p>
+                <div class="cost">Frais de dossier : 27 000 FCFA</div>
+            </div>
+
+            <div class="step">
+                <h3>Étape 2 : Entretien et décision d'admission</h3>
+                <p>Aucune dépense ici.</p>
+            </div>
+
+            <div class="step">
+                <h3>Étape 3 : Paiement de l'acompte demandé par l'école</h3>
+                <p>L'école demande 1 000£ non remboursables si le visa est refusé.</p>
+                <div class="cost">Acompte : 660 000 FCFA</div>
+            </div>
+
+            <div class="step">
+                <h3>Étape 4 : Procédure Campus France "Je suis accepté"</h3>
+                <p>Création du dossier et validation avec lettre d'admission.</p>
+                <p>Dépenses : aucune.</p>
+            </div>
+
+            <div class="step">
+                <h3>Étape 5 : Demande du visa étudiant</h3>
+                <div class="cost">Frais visa : 100 000 FCFA</div>
+            </div>
+
+            <div class="step">
+                <h3>Étape 6 : Justifier les ressources financières</h3>
+                <div class="cost">Attestation agence : 350 000 FCFA (moyenne)</div>
+            </div>
+
+            <div class="step">
+                <h3>Étape 7 : Logement (3 premiers mois) + Vol</h3>
+                <div class="cost">Logement + avion : 1 350 000 FCFA</div>
+            </div>
+
+            <div class="step">
+                <h3>Étape 8 : Paiement du reste de la scolarité</h3>
+                <p>Frais de scolarité EMSP : 6 500€ par an. Paiement de la moitié avant l'arrivée.</p>
+                <div class="cost">Moitié scolarité : 2 150 000 FCFA</div>
+                <img src="img/Pasted image.png" alt="Droits de scolarité EMSP">
+            </div>
+
+            <div class="total">
+                Total Procédure École Privée :2 487 000 + 2 150 000 (Première Tranche de scolarité à payer après
+                l'obtention du visa) = 4 6370 000 FCFA
+            </div>
+        </section>
+
+        <footer>
+            Présentation des procédures d'études – Février 2026
+        </footer>
+    </div>
+</body>
+
+</html>
